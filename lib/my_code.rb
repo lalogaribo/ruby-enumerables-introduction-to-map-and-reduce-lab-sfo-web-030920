@@ -34,6 +34,7 @@ def map_to_square(source_array)
   squared_arr = []
   idx = 1
   while idx < source_array.length
+  break if source_array[idx] < 0
     squared_arr << Math.sqrt(source_array[idx]) 
     idx += 1
   end
