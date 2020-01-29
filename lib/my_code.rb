@@ -19,3 +19,7 @@ def map_to_no_change(source_array)
   end
   no_change_arr
 end
+
+def map_to_double(source_array)
+  
+end
