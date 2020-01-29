@@ -9,3 +9,13 @@ def map_to_negativize(source_array)
   end
   pp negative_array
 end
+
+def map_to_no_change(source_array)
+  no_change_arr = []
+  idx = 0
+  while idx < source_array.length
+    no_change_arr << source_array[idx]
+    idx += 1
+  end
+  no_change_arr
+end
