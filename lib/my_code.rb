@@ -27,7 +27,7 @@ def map_to_double(source_array)
     doubled_arr << source_array[idx] * 2
     idx += 1
   end
-  no_change_arr
+  doubled_arr
 end
 
 def map_to_square(source_array)
